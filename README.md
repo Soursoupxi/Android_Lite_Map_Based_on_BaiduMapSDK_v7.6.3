@@ -30,5 +30,5 @@ POI检索界面 | POI Search Page
 ![image](https://github.com/Soursoupxi/Android_Lite_Map_Based_on_BaiduMapSDK_v7.6.3/blob/main/screenshots/Screenshot_20250116-234441.png)
 
 驾车路径规划检索界面 | Driving Route Planning Search Page
-
-
+![image](https://github.com/Soursoupxi/Android_Lite_Map_Based_on_BaiduMapSDK_v7.6.3/blob/main/screenshots/Screenshot_20250117-001653.png)
+![image](https://github.com/Soursoupxi/Android_Lite_Map_Based_on_BaiduMapSDK_v7.6.3/blob/main/screenshots/Screenshot_20250117-001706.png)
