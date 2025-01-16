@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary">
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/myTextCity"
+                android:text="南京"
+                android:textAlignment="center">
+            </EditText>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="市"
+                android:id="@+id/textView"
+                android:textSize="@dimen/abc_text_size_title_material">
+            </TextView>
+            <EditText
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/myTextAddr"
+                android:text="秦淮区中山东路56号"
+                android:textAlignment="center">
+            </EditText>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="检索"
+                android:id="@+id/myButtonSearch"
+                android:textSize="@dimen/abc_text_size_title_material">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <com.baidu.mapapi.map.MapView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/bmapView"
+                android:clickable="true">
+            </com.baidu.mapapi.map.MapView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
