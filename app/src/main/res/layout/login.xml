@@ -80,7 +80,9 @@
             android:layout_rowWeight="0.5"
             android:layout_row="5"
             android:layout_columnSpan="2"
-            android:visibility="invisible">
+            android:textSize="17sp"
+            android:autoLink="web"
+            android:text="Android_Lite_Map_Based_on_BaiduMapSDK_v7.6.3\n作者:Soursoupxi\n项目链接:\nhttps://github.com/Soursoupxi/Android_Lite_Map_Based_on_BaiduMapSDK_v7.6.3">
         </TextView>
     </GridLayout>
 </RelativeLayout>
